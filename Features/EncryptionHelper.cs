@@ -17,7 +17,7 @@ namespace ConsoleApp1.Features
         [JsonPropertyName("circle")]
         public string Circle { get; set; }
     }
-    public static class EncryptDecrypt
+    public static class EncryptionHelper
     {
         public static void Test()
         {
